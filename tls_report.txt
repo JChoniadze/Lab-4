@@ -1,0 +1,13 @@
+1. TLS Handshake:
+- Client Hello and Server Hello initiate negotiation of cipher suite and key exchange.
+- Server sends certificate; client validates.
+- Session key is derived; encrypted communication begins.
+
+2. MITM Protection:
+- Digital certificates ensure server authenticity.
+- Session key is never transmitted directly.
+- Encryption prevents readable interception.
+
+3. TLS in HTTPS:
+- Encrypts login info, payments, personal data.
+- Ensures authenticity of the site.
