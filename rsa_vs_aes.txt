@@ -1,0 +1,2 @@
+RSA is best for encrypting small data and secure key exchanges, but it's slow. AES is fast and used for bulk encryption with a shared key. 
+AES is symmetric; RSA is asymmetric. AES is used after RSA key exchange in TLS.
